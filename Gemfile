@@ -12,7 +12,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.11.4'
 end
 group :test do
   gem 'cucumber-rails'
@@ -26,12 +26,12 @@ end
 # in production environments by default.
 group :assets do
   gem 'therubyracer'              
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', '~> 3.1.6'
+  gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 2.1.1'
 
 # Use unicorn as the web server
 # gem 'unicorn'

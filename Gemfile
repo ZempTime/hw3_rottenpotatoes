@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '6.0.3.5'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -26,12 +26,12 @@ end
 # in production environments by default.
 group :assets do
   gem 'therubyracer'              
-  gem 'sass-rails', '~> 5.0.8'
-  gem 'coffee-rails', '~> 4.2.2'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier'
 end
 
-gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-rails', '>= 2.1.1'
 
 # Use unicorn as the web server
 # gem 'unicorn'

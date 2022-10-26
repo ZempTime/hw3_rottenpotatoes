@@ -26,8 +26,8 @@ end
 # in production environments by default.
 group :assets do
   gem 'therubyracer'              
-  gem 'sass-rails', '~> 5.0.8'
-  gem 'coffee-rails', '~> 4.2.2'
+  gem 'sass-rails', '~> 3.1.6'
+  gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier'
 end
 

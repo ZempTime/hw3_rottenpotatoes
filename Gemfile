@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.1.7.4'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -12,7 +12,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
-  gem 'rspec-rails', '>= 2.11.4'
+  gem 'rspec-rails', '>= 2.12.0'
 end
 group :test do
   gem 'cucumber-rails'

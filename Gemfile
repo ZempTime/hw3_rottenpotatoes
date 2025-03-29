@@ -15,7 +15,7 @@ group :development, :test do
   gem 'rspec-rails', '>= 2.11.4'
 end
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '>= 3.0.0'
   gem 'cucumber-rails-training-wheels'
 end
 group :production do

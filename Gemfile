@@ -12,7 +12,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
-  gem 'rspec-rails', '>= 2.11.4'
+  gem 'rspec-rails', '>= 8.0.0'
 end
 group :test do
   gem 'cucumber-rails'
